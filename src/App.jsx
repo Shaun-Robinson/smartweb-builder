@@ -3,6 +3,7 @@ import { useState } from "react";
 
 const BACKEND_URL = "https://be2a0f21-1fa8-4d48-95f4-54a8e57eef4c-00-ml2t04cjua1p.riker.replit.dev/generate";
 
+
 function App() {
   const [siteType, setSiteType] = useState("Portfolio");
   const [colorStyle, setColorStyle] = useState("Light");
